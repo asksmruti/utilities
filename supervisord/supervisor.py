@@ -37,7 +37,7 @@ def supervisor(processname, attempts, wait, counter=0):
     allprocesses = []
     cmd_args_list = shlex.split(processname)
 
-    # For last use case where lock will be created with 1 attempt
+    # For exceptional usecase for 1 attempt
     exceptional_usecase = ['bash', '-c', 'if [ -f lock ]; then exit 1; fi; sleep 10 && touch lock && exit 1']
     if cmd_args_list == exceptional_usecase:
         logger.info("Exceptional usecase")
