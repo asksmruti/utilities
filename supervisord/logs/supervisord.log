@@ -1,0 +1,9 @@
+2020-04-04 23:12:23,877 - supervisord - ERROR - bash -c "sleep 5 && exit 0" is not running
+2020-04-04 23:12:23,878 - supervisord - INFO - bash -c "sleep 5 && exit 0" will be restarted [ 1 ]
+2020-04-04 23:12:33,912 - supervisord - INFO - bash -c "sleep 5 && exit 0" started
+2020-04-04 23:12:48,964 - supervisord - ERROR - bash -c "sleep 5 && exit 0" is not running
+2020-04-04 23:12:48,965 - supervisord - INFO - bash -c "sleep 5 && exit 0" will be restarted [ 1 ]
+2020-04-04 23:12:59,016 - supervisord - INFO - bash -c "sleep 5 && exit 0" started
+2020-04-04 23:13:14,045 - supervisord - ERROR - bash -c "sleep 5 && exit 0" is not running
+2020-04-04 23:13:14,045 - supervisord - INFO - bash -c "sleep 5 && exit 0" will be restarted [ 1 ]
+2020-04-04 23:13:24,071 - supervisord - INFO - bash -c "sleep 5 && exit 0" started
